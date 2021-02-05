@@ -550,4 +550,18 @@ i.fa-angular {
   .main-content .site-main {
     padding: 1em 2em;
   }
+
+  .hobbies ul {
+    justify-content: space-evenly;
+  }  
+}
+
+@media (max-width: 399px) {
+  .site-main .hobbies ul li.rm-from-mobile {
+    display: none;
+  }
+
+  .fa-mountain, .fa-pagelines {
+    display: none;
+  }
 }
