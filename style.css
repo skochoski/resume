@@ -1,20 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -496,4 +481,72 @@ i.fa-angular {
 
 .ang-skill {
   width: 60%;
+}
+
+@media (max-width: 800px) {
+  .site-header {
+    display: block;
+  }
+  .site-header .img-container {
+    width: 30%;
+    padding: 1em;
+    margin: 0 1em 0.5em 0;
+    height: auto;
+    float: left;
+  }
+  .site-header .img-container img {
+    margin-top: 0;
+  }
+  .site-header .header-info h1 {
+    margin-top: 1em;
+  }
+  .site-header .header-info p {
+    text-align: start;
+    padding-bottom: 0.5em;
+  }
+  .hobbies ul .hobby-icon {
+    height: 90px;
+    border: none;
+  }
+  .hobbies ul .hobby-icon:before {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header .header-info h1 {
+    margin-top: 0.2em;
+  }
+  .main-content {
+    display: block;
+  }
+  .main-content .site-sidebar,
+  .main-content .site-main {
+    padding: 1em 4em;
+  }
+  .hobbies ul .hobby-icon {
+    height: 80px;
+  }
+}
+
+@media (max-width: 599px) {
+  .site-header .header-info h1 {
+    margin-top: 0.5em;
+  }
+  .site-header .header-info p, .site-header .header-info li {
+    font-size: 16px;
+  }
+  .hobbies ul .hobby-icon {
+    height: 80px;
+  }
+}
+
+@media (max-width: 599px) {
+  .site-header .img-container {
+    display: none;
+  }
+  .main-content .site-sidebar,
+  .main-content .site-main {
+    padding: 1em 2em;
+  }
 }
