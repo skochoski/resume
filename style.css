@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font: 14px/1.5 "PT Sans", Verdana, serif;
 }
 
@@ -33,23 +31,11 @@ html {
   }
 }
 
-body,
-form,
-input,
-textarea,
-button,
-select,
-option,
-table {
+body, form, input, textarea, button, select, option, table {
   font: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-size: 1em;
   margin-bottom: 0.5em;
   font-weight: normal;
@@ -60,7 +46,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.0em;
 }
 
 h3 {
@@ -76,7 +62,7 @@ h5 {
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.0em;
 }
 
 a {
@@ -88,14 +74,11 @@ li {
   list-style-type: none;
 }
 
-p,
-ul,
-ol {
+p, ul, ol {
   padding-bottom: 1.5em;
 }
 
-ul,
-ol {
+ul, ol {
   padding-left: 2em;
 }
 
@@ -114,7 +97,7 @@ body.loaded .site-header .header-info h1 {
   -webkit-transition: color 0.8s ease-in;
   transition: color 0.8s ease-in;
   -webkit-transform: translateX(4em);
-  transform: translateX(4em);
+          transform: translateX(4em);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
   transition: -webkit-transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
@@ -124,7 +107,7 @@ body.loaded .site-header .header-info h1 {
 body.loaded .site-header .header-info h3 {
   color: #555;
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 body {
@@ -146,7 +129,7 @@ h4 {
 
 .site-header .img-container {
   -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
+      flex-basis: 40%;
   padding: 2em;
   background-color: #ccc;
   border-bottom: 1px solid #eee;
@@ -160,7 +143,7 @@ h4 {
 
 .header-info {
   -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+      flex-basis: 60%;
   padding: 2.5em 1.5em 1.5em 1.5em;
   background-color: #eee;
   border-bottom: 1px solid #ccc;
@@ -195,11 +178,11 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 1em;
   color: #222;
 }
@@ -213,7 +196,7 @@ h4 {
 
 .main-content .site-sidebar {
   -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
+      flex-basis: 40%;
   padding: 0 1em 0.5em 1em;
   background-color: #ccc;
 }
@@ -228,7 +211,7 @@ h4 {
 
 .main-content .site-main {
   -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+      flex-basis: 60%;
   padding: 1em;
   background-color: #eee;
 }
@@ -262,11 +245,11 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contacts-entry .contacts-data {
@@ -274,11 +257,11 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .prog-entry {
@@ -298,16 +281,16 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .prog-entry .prog_progress {
   -ms-flex-preferred-size: 60%;
-  flex-basis: 60%;
+      flex-basis: 60%;
   height: 5px;
   background-color: #999;
   margin: 0 1em 0.5em 1em;
@@ -325,16 +308,16 @@ h4 {
 
 .prog-entry .prog-percentage {
   -ms-flex-preferred-size: 15%;
-  flex-basis: 15%;
+      flex-basis: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .personal-entry {
@@ -342,8 +325,8 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .personal-entry .personal-icon {
@@ -357,11 +340,11 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .personal-entry .personal-info {
@@ -370,14 +353,14 @@ h4 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 1em;
 }
 
@@ -456,8 +439,8 @@ h4 {
   padding-left: 0;
   padding-bottom: 0;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hobbies ul .hobby-entry {
@@ -471,11 +454,11 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 i.fas,
