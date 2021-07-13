@@ -368,10 +368,41 @@ h4 {
   padding-bottom: 0;
 }
 
+.projects,
 .experience,
 .education {
   margin: 0 1em 1em 1em;
   border-bottom: 1px solid #ccc;
+}
+
+.projects {
+  padding: 0 1rem;
+}
+
+.projects h4 {
+  text-align: center;
+}
+
+.my-projects {
+  padding-left: 0;
+}
+
+.my-projects li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-projects li a {
+  display: block;
+}
+
+.my-projects li a span:not(.project-link) {
+  font-weight: 700;
+  color: red;
 }
 
 .experience .exp-data,
