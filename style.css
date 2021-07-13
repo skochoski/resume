@@ -166,6 +166,11 @@ h4 {
   font-weight: 400;
 }
 
+.header-info h3 span:not(.job-title) {
+  font-weight: 700;
+  color: red;
+}
+
 .header-info .header-entry {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,6 +401,10 @@ h4 {
           justify-content: space-between;
 }
 
+.my-projects li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .my-projects li a {
   display: block;
 }
@@ -460,7 +469,7 @@ h4 {
 }
 
 .hobbies h4 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .hobbies ul {
@@ -538,15 +547,15 @@ i.fa-angular {
 }
 
 .node-skill {
-  width: 70%;
+  width: 80%;
 }
 
 .react-skill {
-  width: 60%;
+  width: 70%;
 }
 
 .ang-skill {
-  width: 60%;
+  width: 50%;
 }
 
 @media (max-width: 900px) {
