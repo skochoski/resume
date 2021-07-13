@@ -166,7 +166,15 @@ h4 {
   font-weight: 400;
 }
 
-.header-info h3 span:not(.job-title) {
+.header-info h3::before {
+  content: "{";
+}
+
+.header-info h3::after {
+  content: "}";
+}
+
+.header-info h3::before, .header-info h3::after {
   font-weight: 700;
   color: red;
 }
@@ -409,7 +417,26 @@ h4 {
   display: block;
 }
 
-.my-projects li a span:not(.project-link) {
+.my-projects li .heroku-link::before {
+  content: "{";
+}
+
+.my-projects li .heroku-link::after {
+  content: "}";
+}
+
+.my-projects li .git-link::before {
+  content: "[";
+}
+
+.my-projects li .git-link::after {
+  content: "]";
+}
+
+.my-projects li .heroku-link::before,
+.my-projects li .heroku-link::after,
+.my-projects li .git-link::before,
+.my-projects li .git-link::after {
   font-weight: 700;
   color: red;
 }
